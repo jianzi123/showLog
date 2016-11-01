@@ -11,6 +11,7 @@ import (
 var s *util.SockCon
 
 func main() {
+	/////////////////////
 	s, _ = util.NewSock()
 	go func() {
 		cmd := "tail"
